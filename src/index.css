@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+FONTES IMPORTADAS
+font-family: 'Rubik', sans-serif;
+font-family: 'Secular One', sans-serif; 
+*/
+
+h2 {
+  color: black;
+  font-family: "Secular One", sans-serif;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+}
