@@ -16,3 +16,6 @@ h2 {
 p {
   font-family: "Rubik", sans-serif;
 }
+
+background-size: 100vw 100vh;
+object-fit: cover;
