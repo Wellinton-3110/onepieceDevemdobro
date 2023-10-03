@@ -1,14 +1,23 @@
 import zoro from "../img/personagem-roronoa-zoro.png";
-
+import logo from "../img/one-piece-logo.png";
 export function Zoro() {
   return (
     <>
-      <main>
+      <main id="main-zoro" className="hidden h-[100vh] w-[100vw] relative">
         <div>
-          <img src={zoro} alt="" />
-          <div>
-            <i className="logo"></i>
-            <h2 className="personagem">Zoro</h2>
+          <img
+            className="h-[100vh] w-[100%] object-cover z-0"
+            src={zoro}
+            alt=""
+          />
+          <div className="z-10 absolute top-0 left-0 h-[100vh] w-[100vw] bg-gradient-to-r from-black/70 to-black/5"></div>
+          <div className="flex z-20 flex-col text-[white] top-[30%] w-[60vw] absolute p-5">
+            <i className="logo mb-10 h-[110px] w-[300px]">
+              <img src={logo} alt="" />
+            </i>
+            <h2 className="personagem text-[white] text-[25px] mb-5 [font-family: Secular One">
+              Zoro
+            </h2>
             <p className="descricao ">
               Roronoa Zoro, também conhecido como "Caçador de Piratas" Zoro, é o
               combatente dos Piratas do Chapéu de Palha e um ex-caçador de
