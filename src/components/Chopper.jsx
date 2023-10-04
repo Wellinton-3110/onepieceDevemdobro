@@ -1,13 +1,13 @@
 import chopper from "../img/personagem-tony-chopper.png";
 import logo from "../img/one-piece-logo.png";
-
+import "../styles/chopper.css";
 export function Chopper() {
   return (
     <>
       <main id="main-chopper" className="hidden h-[100vh] w-[100vw] relative">
         <div>
           <img
-            className="h-[100vh] w-[100%] object-cover z-0"
+            className="chopper h-[100vh] w-[100%] object-cover z-0"
             src={chopper}
             alt=""
           />

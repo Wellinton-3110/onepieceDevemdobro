@@ -1,13 +1,13 @@
 import nami from "../img/personagem-nami.png";
 import logo from "../img/one-piece-logo.png";
-
+import "../styles/nami.css";
 export function Nami() {
   return (
     <>
       <main id="main-nami" className="hidden h-[100vh] w-[100vw] relative">
         <div>
           <img
-            className="h-[100vh] w-[100%] object-cover z-0"
+            className="nami h-[100vh] w-[100%] object-cover z-0"
             src={nami}
             alt=""
           />

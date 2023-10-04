@@ -1,13 +1,13 @@
 import sanji from "../img/personagem-sanji.png";
 import logo from "../img/one-piece-logo.png";
-
+import "../styles/sanji.css";
 export function Sanji() {
   return (
     <>
       <main id="main-sanji" className="hidden h-[100vh] w-[100vw] relative">
         <div>
           <img
-            className="h-[100vh] w-[100%] object-cover z-0"
+            className="sanji h-[100vh] w-[100%] object-cover z-0"
             src={sanji}
             alt=""
           />

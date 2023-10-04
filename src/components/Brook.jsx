@@ -1,13 +1,14 @@
 import brook from "../img/personagem-brook.png";
 import logo from "../img/one-piece-logo.png";
 
+import "../styles/brook.css";
 export function Brook() {
   return (
     <>
       <main id="main-brook" className="hidden h-[100vh] w-[100vw] relative">
-        <div>
+        <div className="">
           <img
-            className="h-[100vh] w-[100%] object-cover z-0"
+            className="brook h-[100vh] w-[100%] object-cover z-0"
             src={brook}
             alt=""
           />
