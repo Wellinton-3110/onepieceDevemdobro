@@ -18,7 +18,7 @@ export function Franky() {
             <h2 className="personagem text-[white] text-[25px] mb-3 [font-family: Secular One">
               Franky
             </h2>
-            <p className="descricao sm:text-[10px] md:text-[13px]">
+            <p className="descricao sm:h-[45vh] sm:w-[50vw] sm:text-[10px] md:text-[13px] sm:overflow-scroll">
               Franky é o carpinteiro dos Piratas do Chapéu de Palha. Ele é um
               cyborg de 36 anos de Water 7 e foi introduzido na história como o
               líder da Família Franky, um grupo de desmantelamento de navios.
