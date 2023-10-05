@@ -20,7 +20,7 @@ export function Brook() {
             <h2 className="personagem text-[white] text-[25px] mb-5 [font-family: Secular One">
               Brook
             </h2>
-            <p className="descricao sm:text-[10px] md:text-[13px]">
+            <p className="descricao [line-height:19px] text-[13px] sm:text-[9px] md:text-[11px]">
               Brook é o Músico dos Piratas do Chapéu de Palha. Ele é um
               esqueleto que os Chapéus de Palha encontraram a bordo de um navio
               fantasma depois de entrarem no Triângulo Florian. Ele é um usuário
@@ -34,6 +34,12 @@ export function Brook() {
               Luffy, Sua recompensa atual é de 383.000.000 bellys.
             </p>
           </div>
+          <audio
+            className="absolute h-7 z-20 w-[15vw] bottom-[3vh] left-[50%] translate-x-[-50%]"
+            controls
+          >
+            <source src="../../src/songs/binks-no-sake.mp3" type="audio/mp3" />
+          </audio>
         </div>
       </main>
     </>

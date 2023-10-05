@@ -1,6 +1,7 @@
 import chopper from "../img/personagem-tony-chopper.png";
 import logo from "../img/one-piece-logo.png";
 import "../styles/chopper.css";
+
 export function Chopper() {
   return (
     <>
@@ -32,6 +33,13 @@ export function Chopper() {
               Comandante.
             </p>
           </div>
+
+          <audio
+            className="absolute h-7 z-20 w-[15vw] bottom-[3vh] left-[50%] translate-x-[-50%]"
+            controls
+          >
+            <source src="../../src/songs/chopper-theme.mp3" type="audio/mp3" />
+          </audio>
         </div>
       </main>
     </>
