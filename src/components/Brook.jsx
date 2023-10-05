@@ -35,8 +35,9 @@ export function Brook() {
             </p>
           </div>
           <audio
-            className="absolute h-7 z-20 w-[18vw] bottom-[3vh] left-[50%] translate-x-[-50%]"
+            className="absolute h-7 z-20 w-[20vw] bottom-[3vh] left-[50%] translate-x-[-50%]"
             controls
+            autoPlay
           >
             <source src="../../src/songs/binks-no-sake.mp3" type="audio/mp3" />
           </audio>
